@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 29px;
+  height: 29px;
+  cursor: pointer;
+}
+
+.header-wrapper-top {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  margin: 140px;
+}
+
+.nearoffice {
+  margin: 140px;
+}
+
+.phone {
+  text-decoration: none;
+  color: white;
+
+  margin-top: 5px;
+}
+
+/*.phone:hover{
+
+
+}
+*/
+
+.header-wrapper-bottom {
+
+width:100%;
+height:100px;
+background-color:red;
+
+}
