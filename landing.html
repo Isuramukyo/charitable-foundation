@@ -5,20 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <main>
-      <div class="wrapper">
-        <section class="left">
-          <h1>Давай сделаем мир лучше!</h1>
-          <button>Начинаем</button>
-        </section>
-
-        <section class="right">
-          <p>Наше будущее и нашей планеты в наших руках!</p>
-        </section>
+    <div
+      class="w-full h-screen flex justify-center bg-[url('/assets/img/bg.png')] bg-cover"
+    >
+      <div class="text-white flex flex-col gap-y-5 mt-52 m-52 ">
+        <h1 class="font-bold text-5xl">DOBRAYA DUSHA</h1>
+        <p class="text-2xl ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Provident aperiam exercitationem eius ratione consequatur aliquid
+          optio quaerat possimus,
+          rerum architecto saepe earum.
+          Optio rem atque veritatis reiciendis placeat pariatur animi?
+        </p>
+        <button
+          class="font-bold bg-lime-400 w-36 h-16 hover:bg-lime-600 text-xl"
+        >
+          Начинаем!
+        </button>
       </div>
-    </main>
+    </div>
+
+    <div>
+      <header>
+        <div
+          class="px-[8.75rem] w-screen h-[3.125rem] bg-gray-200 flex justify-between items-center"
+        >
+          <p>Most near office</p>
+          <div class="flex gap-x-[1.25rem]">
+            <a href="tel:+911">Phone number</a>
+            <img
+              class="w-[1.813rem] h-[1.813rem]"
+              src="/assets/img/telegram-icon.png"
+              alt=""
+            />
+            <img
+              class="w-[1.813rem] h-[1.813rem]"
+              src="/assets/img/vkontakte-icon.png"
+              alt=""
+            />
+            <img
+              class="w-[1.813rem] h-[1.813rem]"
+              src="/assets/img/instagram-icon.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="w-screen h-[6.250rem] bg-red-200"></div>
+      </header>
+      <main>
+        <div class="w-screen h-screen bg-lime-200"></div>
+      </main>
+    </div>
   </body>
 </html>
